@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Milks";
+    src:
+      local("TT_Milks_Script_Bold"),
+      url("../fonts/TT_Milks_Script_Bold.ttf") format("opentype"),
+  }
+
+
+
+:root {
+    --font-title: 'Milks';
+    --font-text: 'Router';
+    --black: #082220;
+}
+
+*{
+    font-family: var(--font-text);
+}
+
+nav{
+    background-color: var(--black);
+    padding: 5px 10% !important;
+}
+
+.nav-link{
+    font-family: var(--font-title);
+    color: white!important;
+    font-size: large;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-title);
+}
+
+.padding-end{
+    padding-right: 20%;
+}
+
+section{
+    margin-right: 10%;
+    margin-left: 10%;
+}
